@@ -88,11 +88,26 @@ a{
 background: none;
 color: #777;
 }
-
+.eli{
+display: none;
+}
 #special {
 	background: red;
 	color: white;
 }
 .selector-for-some-widget {
   box-sizing: content-box;
+}
+@media only screen and (max-width: 410px) {
+  .borrar{
+		display: none;
+
+	}
+	.eli{
+		display: inline;
+		position: absolute;
+		left: 150px;
+		top:   65px;
+		font-size: 15px;
+		}
 }
