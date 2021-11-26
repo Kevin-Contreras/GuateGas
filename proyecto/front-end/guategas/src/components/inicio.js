@@ -53,9 +53,7 @@ class Inicio extends react.Component {
 		</div>
 	
 			<Product/>
-			<Product/>
-			<Product/>
-			<Product/>
+	
 			</div>
 		);
 	}
